@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: blue;
 }
 body{
     overflow: hidden;
@@ -12,16 +13,10 @@ body{
     background-image: url(background.jpg);
     background-repeat: no-repeat;
     position: absolute;
+    
 }
 
-.trees{
-    height: 100vh;
-    width: 100%;
-    background-image: url(trees.png);
-    background-size: cover; 
-    position: absolute;
-    top: -144px; 
-}
+
 .track{
     height: 60vh;
     width: 800vw;
