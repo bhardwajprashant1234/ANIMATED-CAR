@@ -7,7 +7,7 @@ body{
   animation: shakebody linear 6s infinite;
 }
 .sky{
-  height: 100vh;
+  height: 103vh;
   width: 100%;
   background-image: url(background.jpg);
   background-repeat: no-repeat;
@@ -15,21 +15,21 @@ body{
 }
 
 .trees{
-  height: 100vh;
+  height: 103vh;
   width: 100%;
   background-image: url(trees.png);
   background-size: cover; 
   position: absolute;
-  top: -144px; 
+  top: -140px; 
 }
 .track{
-  height: 60vh;
-  width: 800vw;
+  height: 69vh;
+  width: 801vw;
   background-image: url(track.png);
   background-repeat: repeat-x; 
   position: absolute;
-  top: 70vh;
-  animation: carMove linear 13s infinite;
+  top: 72vh;
+  animation: carMove linear 12s infinite;
 
 }
 
@@ -42,16 +42,16 @@ body{
   position: absolute;
   left: 444px;
   bottom:30vh;
-  animation: shake linear .3s infinite;
+  animation: shake linear .4s infinite;
 
 }
 
 
 .wheel1 img{
-  width: 77px;
+  width: 78px;
   position: relative;
-  top:42px;
-  left:42px;
+  top:43px;
+  left:43px;
   animation: wheelRotation linear .16s infinite;
 }
 
